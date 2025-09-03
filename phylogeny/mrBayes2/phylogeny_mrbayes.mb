@@ -1,0 +1,56 @@
+begin mrbayes;
+[Script documentation carried out using comments]
+
+[log the analysis]
+log start filename = phylogeny_mrbayes.log;
+[read the matrix all_markers_ed_nom.nex]
+execute all_markers_ed_nom.nex;
+
+[close analysis at end]
+set autoclose = yes;
+[set Goeldiella_eques as outgroup]
+outgroup Goeldiella_eques;
+[This command shows the status of all the taxa, according to the documentation]
+taxastat;
+
+[definition of individual partitions per marker]
+charset rag1 = 1-2676;
+charset rag2 = 2677-3607;
+charset 12S = 3608-6316;
+charset cytb = 6317-7570;
+charset morphology = 7571-7578;
+
+[definition of combined dataset]
+partition combined = 5: rag1, rag2, 12S, cytb, morphology;
+
+[specification of substitution models and morphological model]
+set partition = combined;
+lset applyto = (1) nst = 6 rates = invgamma; [GTR+I+G]
+lset applyto = (2) nst = 2 rates = invgamma; [K80+I+G = K2P+I+G]
+lset applyto = (3) nst = 6 rates = invgamma; [GTR+I+G]
+lset applyto = (4) nst = 2 rates = invgamma; [HKY+I+G]
+lset applyto = (5) coding = variable; [Lewis2001 model]
+
+[unlink parameters across partitions]
+unlink shape = (all) pinvar = (all) statefreq = (all) revmat = (all) tratio = (all);
+
+[allow separate gamma parameters for each partition]
+prset applyto=(all) ratepr=variable;
+
+[show the model just specified for each partition]
+showmodel;
+
+[set up the MCMC, with this setting the analysis will need not less than 16 threads]
+mcmcp nruns = 2 ngen = 4000000 nchains = 8 samplefreq = 4000 printfreq = 100;
+[run the MCMC]
+mcmc;
+
+[summarize the posterior trees]
+sumt nruns = 2 relburnin = yes burninfrac = 0.25;
+plot;
+
+[summarize parameter posteriors]
+sump;
+
+log stop;
+end;

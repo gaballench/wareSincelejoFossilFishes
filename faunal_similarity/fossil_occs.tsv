@@ -1,0 +1,58 @@
+Family	Taxon	Environment	Castillo	Pebas	La Victoria	Villavieja	Makaraipao	Loyola Mangan	Rio Acre	Solimoes Pebas	Urumaco	Cantaure	Ituzaingo	Rio Yuca	Fitzcarrald	Contamana	Sincelejo	Ware	San Gregorio	Reference
+Acregoliathidae	Acregoliath	Freshwater	0	0	1	1	0	0	1	0	0	0	0	0	1	0	0	0	0	\citet{Ballen2019a,Carrillo-Briceno2023,Lundberg2010b,Richter1989,Tejada-Lara2015}
+Anostomidae	Leporinus / cf. Leporinus	Freshwater	0	0	1	1	0	1	0	1	0	0	1	0	0	1	1	0	0	\citet{Antoine2016,Bogan2012,Carrillo-Briceno2023,Lundberg1997,Lundberg2010b} 
+Anostomidae	Schizodon	Freshwater	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	\citet{Carrillo-Briceno2021a}
+Anostomidae	cf. Megaleporinus	Freshwater	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	\citet{Carrillo-Briceno2021a}
+Arapaimidae	Arapaima	Freshwater	0	0	0	1	0	0	1	0	0	0	0	0	0	0	0	0	0	\citet{Carrillo-Briceno2023,Lundberg1992,Lundberg2010b}
+Ariidae	Amphiarius	Marine	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	\citet{Lundberg2010b}
+Ariidae	Aspistor	Both	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	\citet{Lundberg2010b}
+Ariidae	Sciades / cf. Sciades	Both	0	0	1	0	0	0	0	0	1	0	0	0	0	0	0	0	1	\citet{Lundberg2010b,Carrillo-Briceno2021a,Carrillo-Briceno2023}
+Auchenipteridae	Trachelyopterichthys	Freshwater	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	This study
+Batrachoididae	Batrachoides	Marine/ Fresh/ Brackish	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	\citet{Aguilera2010,Nunez-Flores2017}
+Callichthyidae	Hoplosternum	Freshwater	0	0	1	1	0	0	1	0	0	0	0	0	0	0	0	0	0	\citet{Carrillo-Briceno2023,Lundberg1997,Lundberg2010b,Reis1998}
+Centropomidae	Centropomus	Marine/ Fresh/ Brackish	1	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	\citet{Nunez-Flores2017,Aguilera2010}
+Characidae	Salminus	Freshwater	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	\citet{Bogan2020,Cione2013}
+Cichlidae 	cf. Astronotus 	Freshwater	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	\citet{Carrillo-Briceno2023}
+Cichlidae 	cf. Cichla 	Freshwater	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	\citet{Carrillo-Briceno2023}
+Cichlidae 	Cichlasoma 	Freshwater	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	\citet{Schwarzhans2022}
+Clupeidae 	Pellona	Marine/ Fresh/ Brackish	1	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	\citet{Nunez-Flores2017}
+Cynodontidae	cf. Rhaphiodon	Freshwater	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	\citet{Ballen2021c}
+Cynodontidae	Hydrolycus	Freshwater	0	0	1	1	0	0	0	0	0	0	1	0	1	1	0	1	0	\citet{Antoine2016,Carrillo-Briceno2023,Cione1997,Cione2000,Lundberg2010b,Tejada-Lara2015,Ballen2021c}, this study
+Doradidae	Doraops	Freshwater	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	\citet{Lundberg2010b,SabajPerez2007}
+Doradidae	Doras	Freshwater	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	\citet{Lundberg2010b,SabajPerez2007}
+Doradidae	Hemidoras	Freshwater	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	This study
+Doradidae	Oxydoras	Freshwater	0	0	0	1	0	0	0	0	0	0	1	0	0	0	0	1	0	\citet{Carrillo-Briceno2023,Lundberg2010b}, this study
+Doradidae	Rhinodoras	Freshwater	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	\citet{Lundberg2010b,SabajPerez2007}
+Doradidae	cf. Amblydoras 	Freshwater	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	\citet{Carrillo-Briceno2021a}
+Doradidae	cf. Scorpiodoras 	Freshwater	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	\citet{Carrillo-Briceno2021a}
+Erythrinidae	Paleohoplias	Freshwater	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	\citet{Lundberg2010b}
+Erythrinidae	Hoplias / cf. Hoplias	Freshwater	0	1	0	0	0	1	0	1	0	0	0	0	0	0	0	0	1	\citet{Carrillo-Briceno2021a,Carrillo-Briceno2021b,Carrillo-Briceno2023,Lundberg1997,Lundberg2010b}
+Hemiodontidae 	Hemiodus 	Freshwater	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	\citet{Carrillo-Briceno2021b}
+Heptapteridae	cf. Pimelodella	Freshwater	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	\citet{Carrillo-Briceno2021a}
+Lepidosirenidae	Lepidosiren	Freshwater	0	0	1	1	1	0	1	0	0	0	0	0	1	1	0	0	0	\citet{Aguilera2010,Antoine2016,Ballen2021b,Carrillo-Briceno2023,Lundberg2010b,Tejada-Lara2015} 
+Loricariidae	Sturisomatichthys	Freshwater	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	\citet{Bogan2022}
+Loricariidae	Acanthicus / cf. Acanthicus	Freshwater	0	0	1	1	0	0	0	0	1	0	1	0	0	0	0	0	0	\citet{Bogan2020,Carrillo-Briceno2023,Lundberg1997,Lundberg2010b}
+Loricariidae	cf. Hypostomus 	Freshwater	0	0	1	1	0	0	0	0	0	0	1	0	0	0	0	0	0	\citet{Bogan2020,Carrillo-Briceno2023,Lundberg1997,Lundberg2010b,Priem1911}
+Mugilidae	Mugil	Marine/ Fresh/ Brackish	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	\citet{Aguilera2010}
+Pimelodidae	Brachyplatystoma	Freshwater	0	0	1	1	0	0	0	0	1	0	1	0	0	0	0	1	0	\citet{Bogan2020,Agnolin2020,Carrillo-Briceno2023,Lundberg1997,Lundberg2005,Aguilera2013d,Lundberg2010b}, this study
+Pimelodidae	Phractocephalus	Freshwater	0	0	1	1	1	0	1	0	1	0	1	1	1	1	1	0	0	\citet{Aguilera2008,Antoine2016,Ballen2021b,Bogan2019,Bogan2020,Carrillo-Briceno2023,Lundberg1988,Lundberg1997,Lundberg2003a,Azpelicueta2016,Lundberg2010b,Rincon2016a,Tejada-Lara2015}, this study
+Pimelodidae	Platysilurus / cf. Platysilurus	Freshwater	0	0	0	0	0	0	0	0	1	0	0	1	0	0	0	1	1	\citet{Carrillo-Briceno2021a,Lundberg2010b}, this study
+Pimelodidae	Sorubim	Freshwater	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	\citet{Bogan2021}
+Pimelodidae	Zungaro	Freshwater	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	1	0	\citet{Lundberg2010b}, this study
+Potamotrygonidae	Potamotrygon / cf. Potamotrygon	Freshwater	0	1	1	1	0	0	0	0	0	0	1	0	0	0	0	0	1	\citet{Carrillo-Briceno2021a,Carrillo-Briceno2023,Deynat1994,Bogan2020}
+Pristidae 	Pristis	Marine/ Fresh/ Brackish	0	0	0	0	0	0	0	0	1	1	0	0	0	0	0	0	0	\citet{Aguilera2010,Carrillo-Briceno2015,Monsch1998,Sanchez-Villagra2006}
+Pristigasteridae	Ilisha	Marine/ Fresh/ Brackish	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	\citet{Aguilera2010}
+Sciaenidae	Aplodinotus	Freshwater	1	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	\citet{Aguilera2010,Nunez-Flores2017}
+Sciaenidae	Cynoscion	Both	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	\citet{Lundberg2010b}
+Sciaenidae	Pachypops	Freshwater	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	\citet{Lundberg2010b}
+Sciaenidae	Plagioscion	Freshwater	1	1	0	0	0	0	0	1	1	1	0	0	0	0	0	0	0	\citet{Aguilera2010,Lundberg2010b,Schwarzhans2022}
+Sciaenidae	Pachyurus	Marine/ Fresh/ Brackish	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	\citet{Aguilera2010}
+Sciaenidae	Protolarimus	?Freshwater	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	\citet{Nunez-Flores2017}
+Sciaenidae	Pebasciaena	?Freshwater	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	\citet{Aguilera2010}
+Serrasalmidae	Colossoma	Freshwater	1	1	1	1	0	0	1	0	1	0	1	0	0	0	0	0	0	\citet{Bogan2020,Carrillo-Briceno2023,Cione2000,Lundberg1986,Lundberg1997,Lundberg2010b}
+Serrasalmidae	Megapiranha	Freshwater	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	\citet{Cione2009}
+Serrasalmidae	Mylossoma/cf. Mylossoma	Freshwater	1	1	0	0	1	0	0	0	0	0	0	0	0	0	0	0	1	\citet{Ballen2021b,Carrillo-Briceno2021a,Dahdul2004,Lundberg2010b}
+Serrasalmidae	Piaractus	Freshwater	0	0	0	0	1	0	0	0	1	0	0	0	0	0	0	0	0	\citet{Ballen2021b,Lundberg2010b}
+Serrasalmidae	Pygocentrus	Freshwater	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	This study reidentifying specimens from \citet{Lundberg1997} and \citet{Antoine2016}
+Serrasalmidae	Serrasalmus / cf. Serrasalmus	Freshwater	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	This study; \citet{Carrillo-Briceno2021b}
+Synbranchidae	Synbranchus	Freshwater	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	\citet{Carrillo-Briceno2021a}
