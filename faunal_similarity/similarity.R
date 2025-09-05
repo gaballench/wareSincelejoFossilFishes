@@ -1,7 +1,7 @@
 library(vegan)
 library(pvclust)
 
-### faunal similarity analyses
+########## fossil faunal similarity analyses
 dataset <- read.delim(file = "fossil_occs.tsv", stringsAsFactors = FALSE)
 dataset <- dataset[, -ncol(dataset)]
 
@@ -13,22 +13,17 @@ comMatrix <- t(comMatrix)
 ### number of occurrences per fauna
 sort(x = apply(X = comMatrix, MARGIN = 1, FUN = sum), decreasing = TRUE)
 
-### calculate the distance matrix using Bray-Curtis' method
-distMatrixBray <- vegan::vegdist(comMatrix, method = "bray", binary = TRUE)
-# rename labels in order to replace dots with spaces
-attr(distMatrixBray, "Labels") <- gsub(pattern = "\\.", replacement = " ", x = attr(distMatrixBray, "Labels"))
-
 ### bootstrap on clustering
 
-fBinary <- pvclust::pvclust(t(comMatrix), method.hclust = "average", method.dist = "binary")
-fBray <- pvclust::pvclust(comMatrix, method.hclust = "average", method.dist = function(x) vegdist(x, method = "bray", binary = TRUE), nboot = 10000)
+# "binary" in method.dist is actually jaccard's distance
+fBinary <- pvclust::pvclust(t(comMatrix), method.hclust = "average", method.dist = "binary", nboot=100000, parallel=TRUE)
 
 ### plot the dendrogram
 pdf(file = "faunalSimBinary.pdf")
 plot(fBinary, main = "Faunal similarity")
 dev.off()
 
-########## Similarity of modern units
+########## Similarity of modern assemblages
 
 ### replace ? with absent 0
 system("sed 's/?/0/g' dagosta2017/modern_incidence.tab > dagosta2017/modern_incidence_nomissing.tab")
@@ -38,8 +33,9 @@ rownames(modernData) <- modernData[,1]
 modernData <- modernData[-1, ]
 modernData <- modernData[,-1]
 
-modernDistMatrixBray <- vegan::vegdist(modernData, method = "bray", binary = TRUE)
+### bootstrap on clustering
 
+# "binary" in method.dist is actually jaccard's distance
 modern_fBinary <- pvclust::pvclust(t(modernData), method.hclust = "average", method.dist = "binary", nboot = 1000, parallel = TRUE)
 
 ### plot the dendrogram
