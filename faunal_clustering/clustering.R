@@ -1,4 +1,3 @@
-library(vegan)
 library(pvclust)
 
 ########## fossil faunal similarity analyses
@@ -19,8 +18,8 @@ sort(x = apply(X = comMatrix, MARGIN = 1, FUN = sum), decreasing = TRUE)
 fBinary <- pvclust::pvclust(t(comMatrix), method.hclust = "average", method.dist = "binary", nboot=100000, parallel=TRUE)
 
 ### plot the dendrogram
-pdf(file = "faunalSimBinary.pdf")
-plot(fBinary, main = "Faunal similarity")
+pdf(file = "faunalClusBinary.pdf")
+plot(fBinary, main = "Fossil faunal clustering")
 dev.off()
 
 ########## Similarity of modern assemblages
@@ -39,6 +38,6 @@ modernData <- modernData[,-1]
 modern_fBinary <- pvclust::pvclust(t(modernData), method.hclust = "average", method.dist = "binary", nboot = 1000, parallel = TRUE)
 
 ### plot the dendrogram
-pdf(file = "modern_faunalSimBinary.pdf", height = 10, width = 14)
-plot(modern_fBinary, main = "Modern faunal similarity")
+pdf(file = "modern_faunalClusBinary.pdf", height = 10, width = 14)
+plot(modern_fBinary, main = "Modern faunal clustering")
 dev.off()

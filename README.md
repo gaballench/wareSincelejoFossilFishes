@@ -5,13 +5,13 @@ Code and data for the paper "Fossil Freshwater Fishes from the Pliocene of north
 ## Structure of this repository
 
 ```
-├── faunal_similarity
+├── faunal_clustering
 │   ├── dagosta2017
 │   │   ├── modern_incidence_nomissing.tab
 │   │   └── modern_incidence.tab
 │   ├── fossil_occs.tsv
 │   ├── palaeoLocs.kml
-│   └── similarity.R
+│   └── clustering.R
 ├── phylogeny
 │   ├── jmodeltest
 │   │   ├── 12S_gblocks_nom.fasta
@@ -60,9 +60,9 @@ Code and data for the paper "Fossil Freshwater Fishes from the Pliocene of north
 
 Each directory has an analytical step. Below we describe each directory and its contents.
 
-### `faunal_similarity`: Faunal cluster analysis
+### `faunal_clustering`: Faunal hierarchical cluster analysis
 
-There is a tab-separated-value file with the fossil occurrences (`fossil_occs.tsv`) and a directory with the recent fish communities per basin (`dagosta2017`). Both datasets are used by the script `similarity.R`, which carries out the calculation of faunal clustering. It also uses the `palaeoLocs.kml` file with coordinates of the representative point coordinate for each fossil assemblage. During preparation of the project this analysis was informally referred to as similarity or dissimilarity both in the code and manuscript. However, it is a cluster analysis which uses a distance, which is the result we are interested in here. It requires `R` and the packages `vegan` and `pvclust`.
+There is a tab-separated-value file with the fossil occurrences (`fossil_occs.tsv`) and a directory with the recent fish communities per basin (`dagosta2017`). Both datasets are used by the script `clustering.R`, which carries out the calculation of faunal clustering. It also uses the `palaeoLocs.kml` file with coordinates of the representative point coordinate for each fossil assemblage. During preparation of the project this analysis was informally referred to as similarity or dissimilarity both in the code and manuscript. However, it is a cluster analysis which uses a distance, which is the result we are interested in here. It requires `R` and the package `pvclust`.
 
 ### `phylogeny`: Bayesian inference of the Pimelodidae including the specimen from the Sincelejo Formation.
 
